@@ -1,12 +1,14 @@
 #import <Foundation/Foundation.h>
 
 #import "BSNullabilityCompat.h"
+#import "BSUtils.h"
 
 @class BSInitializer, BSPropertySet;
 @protocol BSInjector;
 
 NS_ASSUME_NONNULL_BEGIN
 
+BS_LINK_REQUIRE(NSObject_Blindside)
 @interface NSObject(Blindside)
 
 + (id)bsCreateWithArgs:(NSArray *)args injector:(id<BSInjector>)injector;

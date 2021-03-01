@@ -5,6 +5,7 @@
 
 static NSString *const BSMissingInitializerSpecificationException = @"BSMissingInitializerSpecificationException";
 
+BS_LINKABLE(NSObject_Blindside)
 @implementation NSObject(Blindside)
 
 + (id)bsCreateWithArgs:(NSArray *)args injector:(id<BSInjector>)injector {

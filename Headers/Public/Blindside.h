@@ -12,6 +12,7 @@
 #import "BSScope.h"
 #import "BSSingleton.h"
 #import "NSObject+Blindside.h"
+#import "BSUtils.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

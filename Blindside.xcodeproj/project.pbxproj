@@ -123,7 +123,7 @@
 		3420FD0F1BAA2BF200AF22F0 /* BSInjectorImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 61DC9F771541FA82009DDFA6 /* BSInjectorImpl.h */; };
 		3420FD101BAA2BF200AF22F0 /* BSInstanceProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 29997B071505D8FE00C12110 /* BSInstanceProvider.h */; };
 		3420FD111BAA2BF200AF22F0 /* BSProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C967EA150C50ED00356446 /* BSProperty.h */; };
-		3420FD121BAA2BF200AF22F0 /* BSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 347C24621BA0CEF8009BE82F /* BSUtils.h */; };
+		3420FD121BAA2BF200AF22F0 /* BSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 347C24621BA0CEF8009BE82F /* BSUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		344DA5391BAB05C6004270AD /* Blindside.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343267161BAA2A9C005F2D7A /* Blindside.framework */; };
 		344DA53A1BAB24C6004270AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE03FC211B0A57DD00013784 /* AppDelegate.m */; };
 		344DA53B1BAB24C8004270AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE03FC1E1B0A57DD00013784 /* main.m */; };
@@ -140,10 +140,10 @@
 		34A18C0C1B9F8B1E00A65DB3 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A18C081B9F88F700A65DB3 /* ExtensionDelegate.m */; };
 		34A18C0E1B9F8BF600A65DB3 /* Blindside.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E710AB1B9F85210088AB71 /* Blindside.framework */; };
 		34A18C121BA0A6A700A65DB3 /* SwiftFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A18C111BA0A6A700A65DB3 /* SwiftFixtures.swift */; };
-		34D608571BAA28460016C8F3 /* BSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 347C24621BA0CEF8009BE82F /* BSUtils.h */; };
-		34D608581BAA28480016C8F3 /* BSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 347C24621BA0CEF8009BE82F /* BSUtils.h */; };
-		34D608591BAA28490016C8F3 /* BSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 347C24621BA0CEF8009BE82F /* BSUtils.h */; };
-		34D6085A1BAA284D0016C8F3 /* BSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 347C24621BA0CEF8009BE82F /* BSUtils.h */; };
+		34D608571BAA28460016C8F3 /* BSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 347C24621BA0CEF8009BE82F /* BSUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34D608581BAA28480016C8F3 /* BSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 347C24621BA0CEF8009BE82F /* BSUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34D608591BAA28490016C8F3 /* BSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 347C24621BA0CEF8009BE82F /* BSUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34D6085A1BAA284D0016C8F3 /* BSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 347C24621BA0CEF8009BE82F /* BSUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34E3BCD51B4F82960007037F /* Blindside.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CAC6E4150292AD00731862 /* Blindside.framework */; };
 		34E3BCD61B4F8ADD0007037F /* BSBinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B50683152583840035D197 /* BSBinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34E710B31B9F85DF0088AB71 /* Blindside.m in Sources */ = {isa = PBXBuildFile; fileRef = 299EA6AA155CDD2C0006C5A4 /* Blindside.m */; };
@@ -725,6 +725,7 @@
 				29C967661508919300356446 /* BSScope.h */,
 				29C967D01509BF1100356446 /* BSSingleton.h */,
 				29C967581508744900356446 /* NSObject+Blindside.h */,
+				347C24621BA0CEF8009BE82F /* BSUtils.h */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -737,7 +738,6 @@
 				61DC9F771541FA82009DDFA6 /* BSInjectorImpl.h */,
 				29997B071505D8FE00C12110 /* BSInstanceProvider.h */,
 				29C967EA150C50ED00356446 /* BSProperty.h */,
-				347C24621BA0CEF8009BE82F /* BSUtils.h */,
 				AEBA4F121C4D628800C2FF80 /* NSObject+BlindsidePrivate.h */,
 			);
 			path = Private;
@@ -1145,6 +1145,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

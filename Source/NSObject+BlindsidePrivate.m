@@ -1,5 +1,7 @@
 #import "NSObject+BlindsidePrivate.h"
+#import "BSUtils.h"
 
+BS_LINKABLE(NSObject_BlindsidePrivate)
 @implementation NSObject (BlindsidePrivate)
 
 - (NSString *)bsKeyDescription {
