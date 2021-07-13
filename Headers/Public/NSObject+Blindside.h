@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import <BSNullabilityCompat.h>
+#import <Blindside/BSNullabilityCompat.h>
 #import <Blindside/BSUtils.h>
 
 @class BSInitializer, BSPropertySet;
