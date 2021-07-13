@@ -1,7 +1,7 @@
-#import "BSPropertySet.h"
-#import "BSProperty.h"
-#import "NSObject+Blindside.h"
-#import "BSUtils.h"
+#import <Blindside/BSPropertySet.h>
+#import <Blindside/BSProperty.h>
+#import <Blindside/NSObject+Blindside.h>
+#import <Blindside/BSUtils.h>
 
 #import <objc/runtime.h>
 

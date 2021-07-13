@@ -1,7 +1,7 @@
-#import "NSObject+Blindside.h"
-#import "BSInitializer.h"
-#import "BSInjector.h"
-#import "BSPropertySet.h"
+#import <Blindside/NSObject+Blindside.h>
+#import <Blindside/BSInitializer.h>
+#import <Blindside/BSInjector.h>
+#import <Blindside/BSPropertySet.h>
 
 static NSString *const BSMissingInitializerSpecificationException = @"BSMissingInitializerSpecificationException";
 

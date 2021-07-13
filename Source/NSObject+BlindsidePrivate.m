@@ -1,5 +1,5 @@
-#import "NSObject+BlindsidePrivate.h"
-#import "BSUtils.h"
+#import <Blindside/NSObject+BlindsidePrivate.h>
+#import <Blindside/BSUtils.h>
 
 BS_LINKABLE(NSObject_BlindsidePrivate)
 @implementation NSObject (BlindsidePrivate)

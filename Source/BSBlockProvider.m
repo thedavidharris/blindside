@@ -1,9 +1,9 @@
-#import "BSBlockProvider.h"
-#import "BSModule.h"
-#import "BSInitializer.h"
-#import "BSNull.h"
-#import "BSPropertySet.h"
-#import "BSProperty.h"
+#import <Blindside/BSBlockProvider.h>
+#import <Blindside/BSModule.h>
+#import <Blindside/BSInitializer.h>
+#import <Blindside/BSNull.h>
+#import <Blindside/BSPropertySet.h>
+#import <Blindside/BSProperty.h>
 
 @interface BSBlockProvider ()
 @property (nonatomic, strong) BSBlock block;

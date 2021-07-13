@@ -1,18 +1,18 @@
-#import "BSInjectorImpl.h"
-#import "BSBinder.h"
-#import "BSModule.h"
-#import "BSProvider.h"
-#import "BSInitializerProvider.h"
-#import "BSInstanceProvider.h"
-#import "BSInitializer.h"
-#import "BSScope.h"
-#import "BSProperty.h"
-#import "BSPropertySet.h"
-#import "BSClassProvider.h"
-#import "BSNull.h"
-#import "NSObject+Blindside.h"
-#import "NSObject+BlindsidePrivate.h"
-#import "BSUtils.h"
+#import <Blindside/BSInjectorImpl.h>
+#import <Blindside/BSBinder.h>
+#import <Blindside/BSModule.h>
+#import <Blindside/BSProvider.h>
+#import <Blindside/BSInitializerProvider.h>
+#import <Blindside/BSInstanceProvider.h>
+#import <Blindside/BSInitializer.h>
+#import <Blindside/BSScope.h>
+#import <Blindside/BSProperty.h>
+#import <Blindside/BSPropertySet.h>
+#import <Blindside/BSClassProvider.h>
+#import <Blindside/BSNull.h>
+#import <Blindside/NSObject+Blindside.h>
+#import <Blindside/NSObject+BlindsidePrivate.h>
+#import <Blindside/BSUtils.h>
 #import <objc/runtime.h>
 
 static NSString *const BSNoProviderException = @"BSNoProviderException";

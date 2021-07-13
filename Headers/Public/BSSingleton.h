@@ -1,8 +1,8 @@
 #import <Foundation/Foundation.h>
 
-#import "BSScope.h"
-#import "BSProvider.h"
-#import "BSNullabilityCompat.h"
+#import <Blindside/BSScope.h>
+#import <Blindside/BSProvider.h>
+#import <Blindside/BSNullabilityCompat.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

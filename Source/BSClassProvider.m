@@ -1,5 +1,5 @@
-#import "BSClassProvider.h"
-#import "BSInjector.h"
+#import <Blindside/BSClassProvider.h>
+#import <Blindside/BSInjector.h>
 
 @interface BSClassProvider ()
 @property (nonatomic, strong) Class klass;

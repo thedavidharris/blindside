@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 
-#import "BSNullabilityCompat.h"
-#import "BSUtils.h"
+#import <BSNullabilityCompat.h>
+#import <Blindside/BSUtils.h>
 
 @class BSInitializer, BSPropertySet;
 @protocol BSInjector;

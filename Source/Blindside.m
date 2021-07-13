@@ -1,5 +1,5 @@
-#import "Blindside.h"
-#import "BSInjectorImpl.h"
+#import <Blindside/Blindside.h>
+#import <Blindside/BSInjectorImpl.h>
 
 @implementation Blindside
 

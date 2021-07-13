@@ -1,18 +1,18 @@
 #import <Foundation/Foundation.h>
 
-#import "BSBinder.h"
-#import "BSBlockProvider.h"
-#import "BSInitializer.h"
-#import "BSInjector.h"
-#import "BSModule.h"
-#import "BSNull.h"
-#import "BSNullabilityCompat.h"
-#import "BSPropertySet.h"
-#import "BSProvider.h"
-#import "BSScope.h"
-#import "BSSingleton.h"
-#import "NSObject+Blindside.h"
-#import "BSUtils.h"
+#import <Blindside/BSBinder.h>
+#import <Blindside/BSBlockProvider.h>
+#import <Blindside/BSInitializer.h>
+#import <Blindside/BSInjector.h>
+#import <Blindside/BSModule.h>
+#import <Blindside/BSNull.h>
+#import <Blindside/BSNullabilityCompat.h>
+#import <Blindside/BSPropertySet.h>
+#import <Blindside/BSProvider.h>
+#import <Blindside/BSScope.h>
+#import <Blindside/BSSingleton.h>
+#import <Blindside/NSObject+Blindside.h>
+#import <Blindside/BSUtils.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

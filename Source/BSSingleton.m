@@ -1,5 +1,5 @@
-#import "BSSingleton.h"
-#import "BSProvider.h"
+#import <Blindside/BSSingleton.h>
+#import <Blindside/BSProvider.h>
 
 @interface BSSingleton ()
 @property (nonatomic, strong) id<BSProvider> source;

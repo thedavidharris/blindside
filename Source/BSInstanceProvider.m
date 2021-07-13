@@ -1,4 +1,4 @@
-#import "BSInstanceProvider.h"
+#import <Blindside/BSInstanceProvider.h>
 
 @interface BSInstanceProvider ()
 @property (nonatomic, strong) id instance;

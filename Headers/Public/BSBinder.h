@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 
-#import "BSBlockProvider.h"
-#import "BSNullabilityCompat.h"
+#import <Blindside/BSBlockProvider.h>
+#import <Blindside/BSNullabilityCompat.h>
 
 @protocol BSProvider, BSScope;
 

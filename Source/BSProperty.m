@@ -1,5 +1,5 @@
 #import <objc/runtime.h>
-#import "BSProperty.h"
+#import <Blindside/BSProperty.h>
 
 static NSString *const BSInvalidPropertyException = @"BSInvalidPropertyException";
 

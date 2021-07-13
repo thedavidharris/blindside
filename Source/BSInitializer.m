@@ -1,6 +1,6 @@
-#import "BSInitializer.h"
-#import "BSNull.h"
-#import "BSUtils.h"
+#import <Blindside/BSInitializer.h>
+#import <Blindside/BSNull.h>
+#import <Blindside/BSUtils.h>
 
 #import <objc/runtime.h>
 

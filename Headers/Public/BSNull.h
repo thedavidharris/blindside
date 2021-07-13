@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import "BSNullabilityCompat.h"
+#import <Blindside/BSNullabilityCompat.h>
 
 #define BS_DYNAMIC @"bs_dynamic"
 

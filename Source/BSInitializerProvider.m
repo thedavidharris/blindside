@@ -1,11 +1,11 @@
-#import "BSInitializerProvider.h"
-#import "BSInjector.h"
-#import "BSModule.h"
-#import "BSInitializer.h"
-#import "BSNull.h"
-#import "BSPropertySet.h"
-#import "BSProperty.h"
-#import "NSObject+BlindsidePrivate.h"
+#import <Blindside/BSInitializerProvider.h>
+#import <Blindside/BSInjector.h>
+#import <Blindside/BSModule.h>
+#import <Blindside/BSInitializer.h>
+#import <Blindside/BSNull.h>
+#import <Blindside/BSPropertySet.h>
+#import <Blindside/BSProperty.h>
+#import <Blindside/NSObject+BlindsidePrivate.h>
 
 static NSString *const BSNilArgumentValue = @"BSNilArgumentValue";
 static NSString *const BSTooManyArguments = @"BSTooManyArguments";

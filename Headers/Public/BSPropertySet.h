@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 
 #import <Foundation/NSEnumerator.h>
-#import "BSNullabilityCompat.h"
+#import <Blindside/BSNullabilityCompat.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

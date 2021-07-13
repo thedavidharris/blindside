@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import "BSNullabilityCompat.h"
+#import <Blindside/BSNullabilityCompat.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
